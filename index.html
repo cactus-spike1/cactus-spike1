@@ -3,50 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zombiem.fun</title>
+  <title>Zombiemod.fun</title>
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-    }
-    .loader {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      background: linear-gradient(to bottom, #2ecc71, #9b59b6);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      z-index: 9999;
     }
-    .loader h1 {
-      font-size: 36px;
-      color: #00cc00; /* зеленый цвет для zombiemod */
+    .title {
+      font-size: 48px;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
-    .loader p {
-      font-size: 18px;
-      color: #800080; /* фиолетовый цвет для .fun */
+    .zombiemod {
+      color: #2ecc71; /* Зеленый цвет для zombiemod */
     }
-    .loader .spinner {
-      width: 50px;
-      height: 50px;
-      background-color: #333;
-      border-radius: 50%;
-      position: relative;
-      animation: spin 1s infinite linear;
-      margin: 20px auto;
+    .fun {
+      color: #9b59b6; /* Фиолетовый цвет для .fun */
     }
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+    .soon {
+      color: #fff;
+      font-size: 24px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <div class="loader">
-    <h1>Zombiem<span class="fun">.fun</span></h1>
-    <p>Скоро...</p>
-    <div class="spinner"></div>
+  <div class="title">
+    <span class="zombiemod">Zombiemod</span><span class="fun">.fun</span>
+    <div class="soon">Скоро...</div>
   </div>
 </body>
 </html>

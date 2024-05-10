@@ -1,2 +1,2 @@
-Zombiemod.fun
+[Zombiemod.fun](https://zombiemod.fun/) \n
 скоро...

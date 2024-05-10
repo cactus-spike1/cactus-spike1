@@ -1,3 +1,0 @@
-# [Zombiemod.fun](https://zombiemod.fun/) 
-
-## скоро...

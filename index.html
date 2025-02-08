@@ -20,6 +20,8 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      position: relative; /* Убедитесь, что body имеет относительное позиционирование */
+      overflow: hidden; /* Скрыть переполнение */
     }
     @keyframes fadeIn {
       from {
@@ -135,7 +137,7 @@
         transform: scale(1);
       }
     }
-body {
+/*body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-size: cover;
@@ -146,7 +148,7 @@ body {
     background-color: #1f1f1f; /* Добавлен тёмный фон */
     position: relative; /* Убедитесь, что body имеет относительное позиционирование */
     overflow: hidden; /* Скрыть переполнение */
-}
+}*/
 
 body::before {
     content: '';
